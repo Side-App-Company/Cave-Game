@@ -1,0 +1,3 @@
+* About this folder...
+*   - Setup 3rd party repos and packages in here to reduce cluster throughout the app.
+*   - NO custom game logic goes in here.
