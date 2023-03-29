@@ -41,3 +41,33 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Enemy
+    uniqueID: 167082825
+    locked: 0
+  - name: 2
+    uniqueID: 2355043949
+    locked: 0
+  - name: 3
+    uniqueID: 3216401103
+    locked: 0
+  - name: 4
+    uniqueID: 1848680611
+    locked: 0
+  - name: Item
+    uniqueID: 1838213371
+    locked: 0
+  - name: 6
+    uniqueID: 1317468773
+    locked: 0
+  - name: 7
+    uniqueID: 1802887289
+    locked: 0
+  - name: 8
+    uniqueID: 1554664381
+    locked: 0
+  - name: 9
+    uniqueID: 3542659313
+    locked: 0
+  - name: 10
+    uniqueID: 897543839
+    locked: 0
