@@ -7,15 +7,6 @@ using System;
 //TODO:: 
 public static class Factory
 {
-    static GameObject _stalactitePrefab;
-    static GameObject _shrinkPrefab;
-    static GameObject _speedupPrefab;
-    static GameObject _timewarpSlowPrefab;
-    static GameObject _growPrefab;
-    static GameObject _slowPrefab;
-    static GameObject _timewarpFastPrefab;
-    static Vector2 _spawnPoint = new Vector2(0, 0);
-
     public static GameObject getObject(DROPPABLES d)
     {
         GameObject gameObject= null;
@@ -23,24 +14,43 @@ public static class Factory
         {
             case DROPPABLES.STALACTITE:
                 UnityEngine.Debug.Log("Stalactite");
+                Stalactite stalactite = new Stalactite();
+                gameObject = stalactite.Do();
                 break;
             case DROPPABLES.SHRINK:
+                Shrink shrink = new Shrink();
+                gameObject = shrink.Do();
                 UnityEngine.Debug.Log("Shrink");
                 break;
             case DROPPABLES.SPEEDUP:
+                SpeedUp speedUp = new SpeedUp();
+                gameObject = speedUp.Do();
                 UnityEngine.Debug.Log("Speedup");
                 break;
             case DROPPABLES.TIMEWARP_SLOW:
+                TimeWarpSlow timewarpslow = new TimeWarpSlow();
+                gameObject = timewarpslow.Do();
                 UnityEngine.Debug.Log("Time Warp Slow");
                 break;
             case DROPPABLES.GROW:
+                Grow grow = new Grow();
+                gameObject = grow.Do();
                 UnityEngine.Debug.Log("Grow");
                 break;
             case DROPPABLES.SLOW:
+                Slow slow = new Slow();
+                gameObject = slow.Do();
                 UnityEngine.Debug.Log("Slow");
                 break;
             case DROPPABLES.TIMEWARP_FAST:
+                TimeWarpFast timeWarpFast = new TimeWarpFast();
+                gameObject = timeWarpFast.Do();
                 UnityEngine.Debug.Log("Time Warp Fast");
+                break;
+            case DROPPABLES.OIL:
+                Oil oil = new Oil();
+                gameObject = oil.Do();
+                UnityEngine.Debug.Log("Oil");
                 break;
             default:
                 break;

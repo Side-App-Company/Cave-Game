@@ -6,5 +6,5 @@ using UnityEngine;
 public abstract class Droppable
 {
     public abstract DROPPABLES _name { get; }
-    public abstract void Do();
+    public abstract GameObject Do();
 }

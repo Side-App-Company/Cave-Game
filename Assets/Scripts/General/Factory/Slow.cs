@@ -6,9 +6,10 @@ using UnityEngine;
 public class Slow : Droppable
 {
     public override DROPPABLES _name => DROPPABLES.SLOW;
-
-    public override void Do()
+    GameObject _slowPrefab;
+    public override GameObject Do()
     {
         //Spawn Slow Power down
+        return null;
     }
 }

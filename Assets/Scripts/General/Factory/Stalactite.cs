@@ -6,9 +6,10 @@ using UnityEngine;
 public class Stalactite : Droppable
 {
     public override DROPPABLES _name => DROPPABLES.STALACTITE;
-
-    public override void Do()
+    GameObject _stalactitePrefab;
+    public override GameObject Do()
     {
         //Spawn triangle
+        return null;
     }
 }
