@@ -6,9 +6,9 @@ using UnityEngine;
 public class TimeWarpSlow : Droppable
 {
     public override DROPPABLES _name => DROPPABLES.TIMEWARP_SLOW;
-
-    public override void Do()
+    GameObject _timewarpSlowPrefab;
+    public override GameObject Do()
     {
-        //Spawn TimeWarpSlow Powerup
+        return null;
     }
 }

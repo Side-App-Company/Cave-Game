@@ -16,6 +16,7 @@ namespace Constants
             GROW,
             SLOW,
             TIMEWARP_FAST,
+            OIL,
         }
     }
 }

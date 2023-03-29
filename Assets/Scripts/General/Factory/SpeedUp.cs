@@ -6,9 +6,10 @@ using UnityEngine;
 public class SpeedUp : Droppable
 {
     public override DROPPABLES _name => DROPPABLES.SPEEDUP;
-
-    public override void Do()
+    GameObject _speedupPrefab;
+    public override GameObject Do()
     {
         //Spawn Speedup timewarp
+        return null;
     }
 }

@@ -3,13 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shrink : Droppable
+public class Oil : Droppable
 {
     public override DROPPABLES _name => DROPPABLES.SHRINK;
-    GameObject _shrinkPrefab;
+    GameObject _oilPrefab;
     public override GameObject Do()
     {
-        //Spawn Shrink powerup
+        //Spawn Oil powerup
         return null;
     }
 }
