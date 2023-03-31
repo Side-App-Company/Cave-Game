@@ -7,15 +7,16 @@ using System;
 //TODO:: 
 public static class Factory
 {
-    public static GameObject getObject(DROPPABLES d)
+    public static GameObject getObject(DROPPABLES d, GameObject go, Transform t)
     {
-        GameObject gameObject= null;
+        GameObject gameObject= go;
+        Transform test = t;
         switch (d)
         {
             case DROPPABLES.STALACTITE:
                 UnityEngine.Debug.Log("Stalactite");
-                Stalactite stalactite = new Stalactite();
-                gameObject = stalactite.Do();
+                gameObject.AddComponent<Stalactite>();
+                UnityEngine.Object.Instantiate(gameObject.gameObject, test);
                 break;
             case DROPPABLES.SHRINK:
                 Shrink shrink = new Shrink();
