@@ -13,15 +13,11 @@ public class Stalactite : Droppable
     {
         _stalactitePrefab = gameObject;
         _stalactiteTransform = _stalactitePrefab.GetComponent<Transform>();
-        _stalactiteTransform.localPosition = new Vector3(0, 20, 0);
+        _stalactiteTransform.localPosition = new Vector3(Random.Range(-10.0f, 10.0f), 20, 0);
     }
     public override GameObject Do()
     {
-        if(_stalactitePrefab == null )
-            _stalactitePrefab = gameObject;
-        
-        //Spawn triangle
-        Instantiate(_stalactitePrefab, _stalactiteTransform);
-        return _stalactitePrefab;
+        //
+        return null;
     }
 }

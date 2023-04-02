@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6356480017119106503}
   - component: {fileID: -4453084580555393085}
   - component: {fileID: 8314558568400406249}
+  - component: {fileID: -3256468022472044696}
   m_Layer: 0
   m_Name: TimeWarpSlow
   m_TagString: Untagged
@@ -112,3 +113,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-3256468022472044696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3895191461801838236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 526d96c842fdf9844a8264640c729f5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
