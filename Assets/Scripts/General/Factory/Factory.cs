@@ -7,50 +7,35 @@ using System;
 //TODO:: 
 public static class Factory
 {
-    public static GameObject getObject(DROPPABLES d)
+    public static GameObject getObject(DROPPABLES d, GameObject go, Transform t)
     {
-        GameObject gameObject= null;
+        GameObject gameObject= go;
+        Transform test = t;
         switch (d)
         {
             case DROPPABLES.STALACTITE:
-                UnityEngine.Debug.Log("Stalactite");
-                Stalactite stalactite = new Stalactite();
-                gameObject = stalactite.Do();
+                UnityEngine.Object.Instantiate(gameObject.gameObject, test);
                 break;
             case DROPPABLES.SHRINK:
-                Shrink shrink = new Shrink();
-                gameObject = shrink.Do();
-                UnityEngine.Debug.Log("Shrink");
+                UnityEngine.Object.Instantiate(gameObject.gameObject, test);
                 break;
             case DROPPABLES.SPEEDUP:
-                SpeedUp speedUp = new SpeedUp();
-                gameObject = speedUp.Do();
-                UnityEngine.Debug.Log("Speedup");
+                UnityEngine.Object.Instantiate(gameObject.gameObject, test);
                 break;
             case DROPPABLES.TIMEWARP_SLOW:
-                TimeWarpSlow timewarpslow = new TimeWarpSlow();
-                gameObject = timewarpslow.Do();
-                UnityEngine.Debug.Log("Time Warp Slow");
+                UnityEngine.Object.Instantiate(gameObject.gameObject, test);
                 break;
             case DROPPABLES.GROW:
-                Grow grow = new Grow();
-                gameObject = grow.Do();
-                UnityEngine.Debug.Log("Grow");
+                UnityEngine.Object.Instantiate(gameObject.gameObject, test);
                 break;
             case DROPPABLES.SLOW:
-                Slow slow = new Slow();
-                gameObject = slow.Do();
-                UnityEngine.Debug.Log("Slow");
+                UnityEngine.Object.Instantiate(gameObject.gameObject, test);
                 break;
             case DROPPABLES.TIMEWARP_FAST:
-                TimeWarpFast timeWarpFast = new TimeWarpFast();
-                gameObject = timeWarpFast.Do();
-                UnityEngine.Debug.Log("Time Warp Fast");
+                UnityEngine.Object.Instantiate(gameObject.gameObject, test);
                 break;
             case DROPPABLES.OIL:
-                Oil oil = new Oil();
-                gameObject = oil.Do();
-                UnityEngine.Debug.Log("Oil");
+                UnityEngine.Object.Instantiate(gameObject.gameObject, test);
                 break;
             default:
                 break;
