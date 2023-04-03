@@ -7,13 +7,14 @@ using UnityEngine;
 public class Stalactite : Droppable
 {
     public override DROPPABLES _name => DROPPABLES.STALACTITE;
-    GameObject _stalactitePrefab;
-    Transform _stalactiteTransform;
-    private void Awake()
+
+    protected override void Update()
     {
-        _stalactitePrefab = gameObject;
-        _stalactiteTransform = _stalactitePrefab.GetComponent<Transform>();
-        _stalactiteTransform.localPosition = new Vector3(Random.Range(-10.0f, 10.0f), 20, 0);
+        fall();
+        if (_droppableTransform.position.y <= -95)
+        {
+            init();
+        }
     }
     public override GameObject Do()
     {
