@@ -10,12 +10,19 @@ public abstract class Droppable : MonoBehaviour
 
     protected GameObject _droppableGameObject;
     protected Transform _droppableTransform;
+
     [SerializeField]
     protected float randomfall;
     [SerializeField]
     protected float minspeed = .2f;
     [SerializeField]
     protected float maxspeed = 2.0f;
+
+
+    public bool timewarpFastbool = false;
+    public bool timewarpSlowbool = false;
+    [SerializeField]
+    protected float timewarp = 4.2f;
 
     protected virtual void Awake()
     {
@@ -28,6 +35,38 @@ public abstract class Droppable : MonoBehaviour
     }
     protected virtual void Update()
     {
+        if (timewarpFastbool)
+        {
+            if (timewarp >= 0)
+            {
+                timewarp = timewarp - Time.deltaTime;
+                minspeed = 2f;
+                maxspeed = 5f;
+            }
+            else
+            {
+                timewarpFastbool = false;
+                timewarp = 4.2f;
+                minspeed = .2f;
+                maxspeed = 2f;
+            }
+        }
+        if (timewarpSlowbool)
+        {
+            if (timewarp >= 0)
+            {
+                timewarp = timewarp - Time.deltaTime;
+                minspeed = .01f;
+                maxspeed = .2f;
+            }
+            else
+            {
+                timewarpSlowbool = false;
+                timewarp = 4.2f;
+                minspeed = .2f;
+                maxspeed = 2f;
+            }
+        }
         fall();
         if(_droppableTransform.position.y < -95)
         {

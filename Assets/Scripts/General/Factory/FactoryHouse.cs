@@ -46,6 +46,13 @@ public class FactoryHouse : MonoBehaviour
     [SerializeField]
     private float oilTime = 5.5f;
 
+    [SerializeField]
+    private bool timewarpFastbool = false;
+    [SerializeField]
+    private bool timewarpSlowbool = false;
+    [SerializeField]
+    private float timewarp = 4.2f;
+
     private int powerSpawn;
 
     private void Awake()
@@ -105,6 +112,42 @@ public class FactoryHouse : MonoBehaviour
         {
             Factory.getObject(DROPPABLES.OIL, oil, factoryHouse.transform);
             oilTime = 5.5f;
+        }
+        if(timewarpFastbool)
+        {
+            foreach (Transform item in factoryHouse.transform)
+            {
+                var script = item.GetComponent<Droppable>();
+                if (script != null)
+                    script.timewarpFastbool = true;
+            }
+            if (timewarp >= 0)
+            {
+                timewarp = timewarp - Time.deltaTime;
+            }
+            else
+            {
+                timewarpFastbool = false;
+                timewarp = 4.2f;
+            }
+        }
+        if (timewarpSlowbool)
+        {
+            foreach (Transform item in factoryHouse.transform)
+            {
+                var script = item.GetComponent<Droppable>();
+                if (script != null)
+                    script.timewarpSlowbool = true;
+            }
+            if (timewarp >= 0)
+            {
+                timewarp = timewarp - Time.deltaTime;
+            }
+            else
+            {
+                timewarpSlowbool = false;
+                timewarp = 4.2f;
+            }
         }
     }
 }
