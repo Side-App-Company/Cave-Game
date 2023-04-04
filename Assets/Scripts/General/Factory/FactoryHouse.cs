@@ -115,39 +115,71 @@ public class FactoryHouse : MonoBehaviour
         }
         if(timewarpFastbool)
         {
-            foreach (Transform item in factoryHouse.transform)
-            {
-                var script = item.GetComponent<Droppable>();
-                if (script != null)
-                    script.timewarpFastbool = true;
-            }
-            if (timewarp >= 0)
-            {
-                timewarp = timewarp - Time.deltaTime;
-            }
-            else
-            {
-                timewarpFastbool = false;
-                timewarp = 4.2f;
-            }
+            timewarpFast();
         }
         if (timewarpSlowbool)
         {
+            timewarpSlow();
+        }
+    }
+    private void timewarpFast()
+    {
+        if (timewarpSlowbool)
+        {
+            timewarpFastbool = !timewarpFastbool;
             foreach (Transform item in factoryHouse.transform)
             {
                 var script = item.GetComponent<Droppable>();
                 if (script != null)
-                    script.timewarpSlowbool = true;
+                    script.timewarpFastbool = !script.timewarpFastbool;
             }
-            if (timewarp >= 0)
+            timewarp = 4.2f;
+            return;
+        }
+        foreach (Transform item in factoryHouse.transform)
+        {
+            var script = item.GetComponent<Droppable>();
+            if (script != null)
+                script.timewarpFastbool = true;
+        }
+        if (timewarp >= 0)
+        {
+            timewarp = timewarp - Time.deltaTime;
+        }
+        else
+        {
+            timewarpFastbool = false;
+            timewarp = 4.2f;
+        }
+    }
+    private void timewarpSlow()
+    {
+        if (timewarpFastbool)
+        {
+            timewarpSlowbool = false;
+            foreach (Transform item in factoryHouse.transform)
             {
-                timewarp = timewarp - Time.deltaTime;
+                var script = item.GetComponent<Droppable>();
+                if (script != null)
+                    script.timewarpSlowbool = !script.timewarpSlowbool;
             }
-            else
-            {
-                timewarpSlowbool = false;
-                timewarp = 4.2f;
-            }
+            timewarp = 4.2f;
+            return;
+        }
+        foreach (Transform item in factoryHouse.transform)
+        {
+            var script = item.GetComponent<Droppable>();
+            if (script != null)
+                script.timewarpSlowbool = true;
+        }
+        if (timewarp >= 0)
+        {
+            timewarp = timewarp - Time.deltaTime;
+        }
+        else
+        {
+            timewarpSlowbool = false;
+            timewarp = 4.2f;
         }
     }
 }
