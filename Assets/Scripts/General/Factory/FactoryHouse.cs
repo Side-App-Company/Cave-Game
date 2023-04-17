@@ -76,51 +76,7 @@ public class FactoryHouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        randomTime = randomTime - Time.deltaTime;
-        oilTime = oilTime - Time.deltaTime;
-        if(randomTime <= 0 && stalactites < maxSpawn)
-        {
-            Factory.getObject(DROPPABLES.STALACTITE, stalactite, factoryHouse.transform);
-            stalactites++;
-            switch (powerSpawn)
-            {
-                default:
-                    break;
-                case 1:
-                    Factory.getObject(DROPPABLES.SHRINK, shrink, factoryHouse.transform);
-                    break;
-                case 2:
-                    Factory.getObject(DROPPABLES.SPEEDUP, speedUp, factoryHouse.transform);
-                    break;
-                case 3:
-                    Factory.getObject(DROPPABLES.TIMEWARP_SLOW, timewarpslow, factoryHouse.transform);
-                    break;
-                case 4:
-                    Factory.getObject(DROPPABLES.GROW, grow, factoryHouse.transform);
-                    break;
-                case 5:
-                    Factory.getObject(DROPPABLES.SLOW, slow, factoryHouse.transform);
-                    break;
-                case 6:
-                    Factory.getObject(DROPPABLES.TIMEWARP_FAST, timewarpfast, factoryHouse.transform);
-                    break;
-            }
-            randomTime = Random.Range(minTime, maxTime);
-            powerSpawn = Random.Range(1, 6);
-        }
-        if(oilTime <= 0)
-        {
-            Factory.getObject(DROPPABLES.OIL, oil, factoryHouse.transform);
-            oilTime = 5.5f;
-        }
-        if(timewarpFastbool)
-        {
-            timewarpFast();
-        }
-        if (timewarpSlowbool)
-        {
-            timewarpSlow();
-        }
+        spawning();
     }
     private void timewarpFast()
     {
@@ -180,6 +136,55 @@ public class FactoryHouse : MonoBehaviour
         {
             timewarpSlowbool = false;
             timewarp = 4.2f;
+        }
+    }
+
+    private void spawning()
+    {
+        randomTime = randomTime - Time.deltaTime;
+        oilTime = oilTime - Time.deltaTime;
+        if (randomTime <= 0 && stalactites < maxSpawn)
+        {
+            Factory.getObject(DROPPABLES.STALACTITE, stalactite, factoryHouse.transform);
+            stalactites++;
+            switch (powerSpawn)
+            {
+                default:
+                    break;
+                case 1:
+                    Factory.getObject(DROPPABLES.SHRINK, shrink, factoryHouse.transform);
+                    break;
+                case 2:
+                    Factory.getObject(DROPPABLES.SPEEDUP, speedUp, factoryHouse.transform);
+                    break;
+                case 3:
+                    Factory.getObject(DROPPABLES.TIMEWARP_SLOW, timewarpslow, factoryHouse.transform);
+                    break;
+                case 4:
+                    Factory.getObject(DROPPABLES.GROW, grow, factoryHouse.transform);
+                    break;
+                case 5:
+                    Factory.getObject(DROPPABLES.SLOW, slow, factoryHouse.transform);
+                    break;
+                case 6:
+                    Factory.getObject(DROPPABLES.TIMEWARP_FAST, timewarpfast, factoryHouse.transform);
+                    break;
+            }
+            randomTime = Random.Range(minTime, maxTime);
+            powerSpawn = Random.Range(1, 6);
+        }
+        if (oilTime <= 0)
+        {
+            Factory.getObject(DROPPABLES.OIL, oil, factoryHouse.transform);
+            oilTime = 5.5f;
+        }
+        if (timewarpFastbool)
+        {
+            timewarpFast();
+        }
+        if (timewarpSlowbool)
+        {
+            timewarpSlow();
         }
     }
 }
