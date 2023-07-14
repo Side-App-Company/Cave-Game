@@ -1,0 +1,1423 @@
+fileFormatVersion: 2
+guid: 7436125cb96ca094e8b4d99a52e3f75c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 7670
+        width: 2067
+        height: 514
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3684a96f44a4a2644b820b9f7a78b0da
+      internalID: 755523472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_1
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 7672
+        width: 1008
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecccb09211f884e4e8dff5088a2e1e3f
+      internalID: 1104149145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4876
+        width: 2068
+        height: 2786
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d99b04a52f6c0e45817721c4f831c63
+      internalID: -449582429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_3
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 4876
+        width: 1311
+        height: 2786
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0195e58c7ed59364a8621d4a07393744
+      internalID: 2098745661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_4
+      rect:
+        serializedVersion: 2
+        x: 3402
+        y: 6263
+        width: 593
+        height: 1382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38483b5365e223547b0a9a14e12f0152
+      internalID: -640737252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_5
+      rect:
+        serializedVersion: 2
+        x: 3401
+        y: 4876
+        width: 726
+        height: 1379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b109fa4c7470ab4fa9cbd4c9eb57df9
+      internalID: 378614146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_6
+      rect:
+        serializedVersion: 2
+        x: 4135
+        y: 4876
+        width: 558
+        height: 955
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6fdad22c1a33704ebdb22a92cfc5f32
+      internalID: -1912413126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_7
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 2245
+        width: 2879
+        height: 2615
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e23bd6514aea2342b774f68ea0861a7
+      internalID: -1623676875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_8
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 4624
+        width: 143
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e40553dc6e11e946b5399bda3563cd0
+      internalID: 2140560492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_9
+      rect:
+        serializedVersion: 2
+        x: 3127
+        y: 4559
+        width: 147
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4956fe2ec3822b448a477ce4d2be1c9a
+      internalID: -140237795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_10
+      rect:
+        serializedVersion: 2
+        x: 3297
+        y: 4498
+        width: 200
+        height: 330
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dabe1f14845a63740b0dbcd4a9792ef8
+      internalID: -1848697341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_11
+      rect:
+        serializedVersion: 2
+        x: 3513
+        y: 4341
+        width: 208
+        height: 492
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067ca09573d783540ba4db0769339a5b
+      internalID: 636280585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_12
+      rect:
+        serializedVersion: 2
+        x: 3729
+        y: 4341
+        width: 455
+        height: 491
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7252dea5866e0469ecae2387d23601
+      internalID: -1865535776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_13
+      rect:
+        serializedVersion: 2
+        x: 10841
+        y: 4458
+        width: 741
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f59dcde605ec3545aa0b96cb6282d15
+      internalID: 225255031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_14
+      rect:
+        serializedVersion: 2
+        x: 11590
+        y: 4459
+        width: 387
+        height: 382
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65b3ff43ca23174ea035e40ef029069
+      internalID: -811123320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_15
+      rect:
+        serializedVersion: 2
+        x: 12194
+        y: 4362
+        width: 966
+        height: 466
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b744c2011811b4a9fc8fe5822955ff
+      internalID: -372062694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_16
+      rect:
+        serializedVersion: 2
+        x: 13179
+        y: 4759
+        width: 91
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae1de3e9a5936a4e93a2b30b7dc4ff6
+      internalID: 194842534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_17
+      rect:
+        serializedVersion: 2
+        x: 13295
+        y: 4756
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3920e4dcf37794586377563318bc3a
+      internalID: 1461503899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_18
+      rect:
+        serializedVersion: 2
+        x: 14591
+        y: 4546
+        width: 296
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210c6a97f330ca741b138d3dd1b5d08e
+      internalID: -1353455235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_19
+      rect:
+        serializedVersion: 2
+        x: 14992
+        y: 3507
+        width: 696
+        height: 1313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ad88392606a0a4b8ddc2229e4f53e3
+      internalID: -1634509120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_20
+      rect:
+        serializedVersion: 2
+        x: 7475
+        y: 2215
+        width: 1961
+        height: 2465
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea35911c0b52b84cbe32890055deea4
+      internalID: -978601207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_21
+      rect:
+        serializedVersion: 2
+        x: 13168
+        y: 4558
+        width: 270
+        height: 176
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1462c4586134b31498300fba13422aa4
+      internalID: -1817010897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_22
+      rect:
+        serializedVersion: 2
+        x: 13476
+        y: 4174
+        width: 1107
+        height: 525
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e80a19d798eb246ae2ba5dab0fa9be
+      internalID: 1390718211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_23
+      rect:
+        serializedVersion: 2
+        x: 15697
+        y: 3508
+        width: 638
+        height: 1172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1838e8024f7315c49a9d42ec08237f7c
+      internalID: 1233556124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_24
+      rect:
+        serializedVersion: 2
+        x: 9444
+        y: 2233
+        width: 1389
+        height: 2263
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5b982e1204d3f4388e152ea47b7d26
+      internalID: -1938457727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_25
+      rect:
+        serializedVersion: 2
+        x: 10861
+        y: 2240
+        width: 1304
+        height: 2210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de48512be4310a42831a5de2ddfc556
+      internalID: -1544249144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_26
+      rect:
+        serializedVersion: 2
+        x: 13168
+        y: 4361
+        width: 296
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd63b1a37040ba440a059cb448bcae08
+      internalID: -1544049988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_27
+      rect:
+        serializedVersion: 2
+        x: 14591
+        y: 4174
+        width: 368
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8eb7765cf36294699e7b83c470c557
+      internalID: -1461886154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_28
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 3879
+        width: 1532
+        height: 454
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a539797321aa06d4bbd4913a0ee8ba34
+      internalID: -1589113697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_29
+      rect:
+        serializedVersion: 2
+        x: 4473
+        y: 3879
+        width: 1538
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -760, y: 128.5}
+        - {x: -725, y: -76.5}
+        - {x: -550, y: -135.5}
+        - {x: 559, y: -138.5}
+        - {x: 658, y: -95.5}
+        - {x: 709, y: 16.5}
+        - {x: 747, y: 100.5}
+      tessellationDetail: 0.06
+      bones: []
+      spriteID: 2d3d9f16b277edd438b279f1ad2272b0
+      internalID: 1797098220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_30
+      rect:
+        serializedVersion: 2
+        x: 6043
+        y: 3880
+        width: 429
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6606c4eb1816ef749bf3612502580d78
+      internalID: -1283928526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_31
+      rect:
+        serializedVersion: 2
+        x: 12202
+        y: 3532
+        width: 1262
+        height: 804
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a9a2d29e976854e9553685ab384387
+      internalID: 367256908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_32
+      rect:
+        serializedVersion: 2
+        x: 13476
+        y: 3507
+        width: 1508
+        height: 563
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f751461febb84b4c889a767dd017fa8
+      internalID: -2144353307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_33
+      rect:
+        serializedVersion: 2
+        x: 2932
+        y: 3065
+        width: 297
+        height: 794
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c698531b9f2474dab069559d206464
+      internalID: 759434519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_34
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 2239
+        width: 530
+        height: 1572
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5758d5c96db81f46a51a169695a38a0
+      internalID: 1414203885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_35
+      rect:
+        serializedVersion: 2
+        x: 4617
+        y: 2275
+        width: 582
+        height: 1561
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe7af98cefd1de4689b22b61c6e0595
+      internalID: -716776772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_36
+      rect:
+        serializedVersion: 2
+        x: 5334
+        y: 3077
+        width: 374
+        height: 677
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8d4d350c3322b45aba28583d3db04b
+      internalID: 1496484398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_37
+      rect:
+        serializedVersion: 2
+        x: 6001
+        y: 2257
+        width: 565
+        height: 1537
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f0ea15a536c7f45bed9a12b1f5181b
+      internalID: 1603725040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_38
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 2274
+        width: 498
+        height: 1596
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57815c861594e3944aa6a5ef8ef5b029
+      internalID: 996538076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_39
+      rect:
+        serializedVersion: 2
+        x: 12195
+        y: 2215
+        width: 1015
+        height: 1284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccc10746acccc14380e1b6a83045048
+      internalID: -2011593019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_40
+      rect:
+        serializedVersion: 2
+        x: 13218
+        y: 2215
+        width: 1097
+        height: 1072
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdf18bd482e6ca4fab103be9bd64a76
+      internalID: -816452179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_41
+      rect:
+        serializedVersion: 2
+        x: 14323
+        y: 2215
+        width: 1132
+        height: 966
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc47f77b721a621498aa186b5866745b
+      internalID: -165053706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_42
+      rect:
+        serializedVersion: 2
+        x: 15491
+        y: 2215
+        width: 761
+        height: 964
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5d338b46e3e0a42ae7aced807b4d3d
+      internalID: 940761227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_43
+      rect:
+        serializedVersion: 2
+        x: 2980
+        y: 2248
+        width: 248
+        height: 791
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df02114ff9d5fbd4e967979ee8a37663
+      internalID: -406735906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_44
+      rect:
+        serializedVersion: 2
+        x: 5283
+        y: 2322
+        width: 535
+        height: 677
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe5f015c85abd845b3e6566d3a20be8
+      internalID: -21623191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_45
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 10
+        width: 3775
+        height: 2206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 858236bd3aa11cf4788f7e7884e6f9e3
+      internalID: 1050083440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_46
+      rect:
+        serializedVersion: 2
+        x: 3788
+        y: 1733
+        width: 4052
+        height: 337
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533e6381b68fd0f46a9968c44d59a0cc
+      internalID: 1745774704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_47
+      rect:
+        serializedVersion: 2
+        x: 7872
+        y: 1733
+        width: 479
+        height: 456
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc031be3b12d3234fba1418420d66be0
+      internalID: 1311859289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_48
+      rect:
+        serializedVersion: 2
+        x: 8594
+        y: 181
+        width: 891
+        height: 1934
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf4981342cd6224295ea06908fc1df8
+      internalID: 1100032249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_49
+      rect:
+        serializedVersion: 2
+        x: 10006
+        y: 4
+        width: 846
+        height: 2075
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45abb92a38079dd4f920ca6f411fc93f
+      internalID: 168368416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_50
+      rect:
+        serializedVersion: 2
+        x: 11179
+        y: 158
+        width: 935
+        height: 2044
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2726f0d2eb1dea14db1a4d82e39a3dd7
+      internalID: -871864261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_51
+      rect:
+        serializedVersion: 2
+        x: 12122
+        y: 1429
+        width: 2782
+        height: 747
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20896aa208229004c86233a4e76c4d44
+      internalID: 350151864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_52
+      rect:
+        serializedVersion: 2
+        x: 14913
+        y: 1429
+        width: 1052
+        height: 630
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a2b796e32c6c3459e0c0302177410f
+      internalID: 1877123699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_53
+      rect:
+        serializedVersion: 2
+        x: 3787
+        y: 5
+        width: 4799
+        height: 1720
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d669c179391bea54789d618d5cfe99e0
+      internalID: -1663968492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_54
+      rect:
+        serializedVersion: 2
+        x: 12139
+        y: 29
+        width: 1520
+        height: 1372
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 325b609db01739b47bd93aba5e22818a
+      internalID: -208013046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_55
+      rect:
+        serializedVersion: 2
+        x: 13667
+        y: 4
+        width: 1352
+        height: 1240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626842b829ed2f8429db81bb08509636
+      internalID: 1026071238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaveGame_SpriteSheetExport_CleanUp_56
+      rect:
+        serializedVersion: 2
+        x: 15027
+        y: 4
+        width: 1197
+        height: 1185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d127a86bc4ea528498c35d2f1f6ac337
+      internalID: -666586071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ccb9cb0c89ca63d419e731ae18293df0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures:
+    - texture: {fileID: 2800000, guid: 0dd35a4e38631294ea6ecfd0499ce7df, type: 3}
+      name: _NormalMap
+    nameFileIdTable:
+      CaveGame_SpriteSheetExport_CleanUp_0: 755523472
+      CaveGame_SpriteSheetExport_CleanUp_1: 1104149145
+      CaveGame_SpriteSheetExport_CleanUp_10: -1848697341
+      CaveGame_SpriteSheetExport_CleanUp_11: 636280585
+      CaveGame_SpriteSheetExport_CleanUp_12: -1865535776
+      CaveGame_SpriteSheetExport_CleanUp_13: 225255031
+      CaveGame_SpriteSheetExport_CleanUp_14: -811123320
+      CaveGame_SpriteSheetExport_CleanUp_15: -372062694
+      CaveGame_SpriteSheetExport_CleanUp_16: 194842534
+      CaveGame_SpriteSheetExport_CleanUp_17: 1461503899
+      CaveGame_SpriteSheetExport_CleanUp_18: -1353455235
+      CaveGame_SpriteSheetExport_CleanUp_19: -1634509120
+      CaveGame_SpriteSheetExport_CleanUp_2: -449582429
+      CaveGame_SpriteSheetExport_CleanUp_20: -978601207
+      CaveGame_SpriteSheetExport_CleanUp_21: -1817010897
+      CaveGame_SpriteSheetExport_CleanUp_22: 1390718211
+      CaveGame_SpriteSheetExport_CleanUp_23: 1233556124
+      CaveGame_SpriteSheetExport_CleanUp_24: -1938457727
+      CaveGame_SpriteSheetExport_CleanUp_25: -1544249144
+      CaveGame_SpriteSheetExport_CleanUp_26: -1544049988
+      CaveGame_SpriteSheetExport_CleanUp_27: -1461886154
+      CaveGame_SpriteSheetExport_CleanUp_28: -1589113697
+      CaveGame_SpriteSheetExport_CleanUp_29: 1797098220
+      CaveGame_SpriteSheetExport_CleanUp_3: 2098745661
+      CaveGame_SpriteSheetExport_CleanUp_30: -1283928526
+      CaveGame_SpriteSheetExport_CleanUp_31: 367256908
+      CaveGame_SpriteSheetExport_CleanUp_32: -2144353307
+      CaveGame_SpriteSheetExport_CleanUp_33: 759434519
+      CaveGame_SpriteSheetExport_CleanUp_34: 1414203885
+      CaveGame_SpriteSheetExport_CleanUp_35: -716776772
+      CaveGame_SpriteSheetExport_CleanUp_36: 1496484398
+      CaveGame_SpriteSheetExport_CleanUp_37: 1603725040
+      CaveGame_SpriteSheetExport_CleanUp_38: 996538076
+      CaveGame_SpriteSheetExport_CleanUp_39: -2011593019
+      CaveGame_SpriteSheetExport_CleanUp_4: -640737252
+      CaveGame_SpriteSheetExport_CleanUp_40: -816452179
+      CaveGame_SpriteSheetExport_CleanUp_41: -165053706
+      CaveGame_SpriteSheetExport_CleanUp_42: 940761227
+      CaveGame_SpriteSheetExport_CleanUp_43: -406735906
+      CaveGame_SpriteSheetExport_CleanUp_44: -21623191
+      CaveGame_SpriteSheetExport_CleanUp_45: 1050083440
+      CaveGame_SpriteSheetExport_CleanUp_46: 1745774704
+      CaveGame_SpriteSheetExport_CleanUp_47: 1311859289
+      CaveGame_SpriteSheetExport_CleanUp_48: 1100032249
+      CaveGame_SpriteSheetExport_CleanUp_49: 168368416
+      CaveGame_SpriteSheetExport_CleanUp_5: 378614146
+      CaveGame_SpriteSheetExport_CleanUp_50: -871864261
+      CaveGame_SpriteSheetExport_CleanUp_51: 350151864
+      CaveGame_SpriteSheetExport_CleanUp_52: 1877123699
+      CaveGame_SpriteSheetExport_CleanUp_53: -1663968492
+      CaveGame_SpriteSheetExport_CleanUp_54: -208013046
+      CaveGame_SpriteSheetExport_CleanUp_55: 1026071238
+      CaveGame_SpriteSheetExport_CleanUp_56: -666586071
+      CaveGame_SpriteSheetExport_CleanUp_6: -1912413126
+      CaveGame_SpriteSheetExport_CleanUp_7: -1623676875
+      CaveGame_SpriteSheetExport_CleanUp_8: 2140560492
+      CaveGame_SpriteSheetExport_CleanUp_9: -140237795
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
