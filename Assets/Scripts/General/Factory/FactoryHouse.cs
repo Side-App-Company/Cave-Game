@@ -76,9 +76,74 @@ public class FactoryHouse : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        spawning();
+    }
+    private void timewarpFast()
+    {
+        if (timewarpSlowbool)
+        {
+            timewarpFastbool = !timewarpFastbool;
+            foreach (Transform item in factoryHouse.transform)
+            {
+                var script = item.GetComponent<Droppable>();
+                if (script != null)
+                    script.timewarpFastbool = !script.timewarpFastbool;
+            }
+            timewarp = 4.2f;
+            return;
+        }
+        foreach (Transform item in factoryHouse.transform)
+        {
+            var script = item.GetComponent<Droppable>();
+            if (script != null)
+                script.timewarpFastbool = true;
+        }
+        if (timewarp >= 0)
+        {
+            timewarp = timewarp - Time.deltaTime;
+        }
+        else
+        {
+            timewarpFastbool = false;
+            timewarp = 4.2f;
+        }
+    }
+    private void timewarpSlow()
+    {
+        if (timewarpFastbool)
+        {
+            timewarpSlowbool = false;
+            foreach (Transform item in factoryHouse.transform)
+            {
+                var script = item.GetComponent<Droppable>();
+                if (script != null)
+                    script.timewarpSlowbool = !script.timewarpSlowbool;
+            }
+            timewarp = 4.2f;
+            return;
+        }
+        foreach (Transform item in factoryHouse.transform)
+        {
+            var script = item.GetComponent<Droppable>();
+            if (script != null)
+                script.timewarpSlowbool = true;
+        }
+        if (timewarp >= 0)
+        {
+            timewarp = timewarp - Time.deltaTime;
+        }
+        else
+        {
+            timewarpSlowbool = false;
+            timewarp = 4.2f;
+        }
+    }
+
+    private void spawning()
+    {
         randomTime = randomTime - Time.deltaTime;
         oilTime = oilTime - Time.deltaTime;
-        if(randomTime <= 0 && stalactites < maxSpawn)
+        if (randomTime <= 0 && stalactites < maxSpawn)
         {
             Factory.getObject(DROPPABLES.STALACTITE, stalactite, factoryHouse.transform);
             stalactites++;
@@ -108,46 +173,18 @@ public class FactoryHouse : MonoBehaviour
             randomTime = Random.Range(minTime, maxTime);
             powerSpawn = Random.Range(1, 6);
         }
-        if(oilTime <= 0)
+        if (oilTime <= 0)
         {
             Factory.getObject(DROPPABLES.OIL, oil, factoryHouse.transform);
             oilTime = 5.5f;
         }
-        if(timewarpFastbool)
+        if (timewarpFastbool)
         {
-            foreach (Transform item in factoryHouse.transform)
-            {
-                var script = item.GetComponent<Droppable>();
-                if (script != null)
-                    script.timewarpFastbool = true;
-            }
-            if (timewarp >= 0)
-            {
-                timewarp = timewarp - Time.deltaTime;
-            }
-            else
-            {
-                timewarpFastbool = false;
-                timewarp = 4.2f;
-            }
+            timewarpFast();
         }
         if (timewarpSlowbool)
         {
-            foreach (Transform item in factoryHouse.transform)
-            {
-                var script = item.GetComponent<Droppable>();
-                if (script != null)
-                    script.timewarpSlowbool = true;
-            }
-            if (timewarp >= 0)
-            {
-                timewarp = timewarp - Time.deltaTime;
-            }
-            else
-            {
-                timewarpSlowbool = false;
-                timewarp = 4.2f;
-            }
+            timewarpSlow();
         }
     }
 }
