@@ -6917,26 +6917,6 @@ ScriptedImporter:
     flatten: 0
     isImported: 0
     isVisible: 1
-  - name: Layer 2
-    spriteName: 
-    isGroup: 0
-    parentIndex: 13
-    spriteID: 26688a8da43de324f91d1674daa6da02
-    layerID: 2
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: Layer 72
-    spriteName: 
-    isGroup: 0
-    parentIndex: 13
-    spriteID: 5143cac90a5f44f4a9268a645cb4bb3a
-    layerID: 202
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
   - name: Layer 71
     spriteName: 
     isGroup: 0
