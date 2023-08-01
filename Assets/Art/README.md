@@ -1,7 +1,7 @@
 * About this folder...
 *   - Top level folder for all Artwork.
 *   - Raw working files such as ".psd", etc should be placed in the _RAW folder.
-*   - Outside game assets, i.e. app icons, etc, should be placed in the General folder.
+*   - Outside game assets, i.e. app icons, etc, should be placed in the Common folder.
 *   - All other art files should be placed in their respective folders.
 
 * WARNING!!!

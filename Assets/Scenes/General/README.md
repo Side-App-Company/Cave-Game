@@ -1,5 +1,5 @@
 * About this folder...
-*   - Top level folder for all General Unity scenes.
+*   - Top level folder for all Common Unity scenes.
 *     - i.e. "Main Menu", "Login", etc.
 *   - All other scene files should be placed in their own respective folders.
 

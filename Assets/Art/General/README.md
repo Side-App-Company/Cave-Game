@@ -1,5 +1,5 @@
 * About this folder...
-*   - Top level folder for all general Artwork.
+*   - Top level folder for all common Artwork.
 *     - i.e. Icons, splash screens etc.
 *   - Place all sprite sheets in their respective folders.
 
