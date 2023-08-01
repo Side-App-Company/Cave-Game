@@ -1,5 +1,5 @@
 * About this folder...
-*   - Top level folder for all general Unity prefab objects.
+*   - Top level folder for all common Unity prefab objects.
 *     - i.e. Local Storage, asset management, etc.
 *   - Prefab files should be placed in their respective folders.
 

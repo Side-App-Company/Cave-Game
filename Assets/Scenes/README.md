@@ -1,7 +1,7 @@
 * About this folder...
 *   - Top level folder for all Unity scenes.
 *   - App folder is used strictly for the App Container scene.
-*   - General scenes such as "main menu", "login", etc should be placed in the General folder.
+*   - Common scenes such as "main menu", "login", etc should be placed in the Common folder.
 *   - All other scene files should be placed in their own respective folders.
 
 * WARNING!!!
