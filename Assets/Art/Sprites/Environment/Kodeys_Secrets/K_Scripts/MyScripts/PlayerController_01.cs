@@ -2,8 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController_01 : MonoBehaviour
+using Unravel.Touch;
+
+public class PlayerController_01 : MonoBehaviour,
+    IPubAccess<TouchEvent>
 {
+/********** Data **********/
+    [SerializeField]
+    private bool connectToHub = false;
+    private Hub hub;
+
     public float speed;
     public float jumpForce;
     private float moveInput;
@@ -21,66 +29,120 @@ public class PlayerController_01 : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround;
 
+/********** Constuction **********/
+    void Awake()
+    {
+        if(this.connectToHub)
+            this.hub = GameObject.FindWithTag("Hub").GetComponent<Hub>();
+    }
+    
     void Start()
     {
         extraJumps = extraJumpsValue;
         rb = GetComponent<Rigidbody2D>();
         animate=gameObject.GetComponent<Animator>();
 
+        if(this.connectToHub)
+            this.hub.getTouchSubAccess().subscribe(this);
+    }
+/********** Runtime **********/
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.UpArrow) && extraJumps > 0)
+            this.aerialJump();
+        
+        else if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded == true)
+            this.jump();
     }
 
     void FixedUpdate()
     {
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, whatIsGround);
 
-        moveInput = Input.GetAxis("Horizontal");
+        float horizontal = Input.GetAxis("Horizontal");
+        if(horizontal != 0.0f)
+            this.updateMoveInput(horizontal);
+
         rb.velocity = new Vector2(moveInput * speed, rb.velocity.y);
 
         animate.SetFloat("Speed", Mathf.Abs(moveInput)); //"moveInput" is what triggers movement 
 
         if(facingRight == true && moveInput > 0)
-        {
-            Flip();
-        }
+            this.flip();
         
         else if(facingRight == false && moveInput < 0)
-        {
-            Flip();
-        }
-    }
+            this.flip();
 
-    void Flip()
+    }
+/********** Actions **********/
+    private void updateMoveInput(float power)
+    {
+        this.moveInput = power;
+    }
+    private void flip()
     {
         facingRight = !facingRight;
         Vector3 Scaler = transform.localScale;
         Scaler.x *= -1; 
         transform.localScale = Scaler;
     }
-
-    void Update()
+    
+    private void aerialJump()
     {
+        this.jump();
+        this.extraJumps--;
+        animate.SetFloat("isJumping", Mathf.Abs(jumpForce));////
+    }
 
-        if(isGrounded == true)
+    private void jump()
+    {
+        rb.velocity = Vector2.up * jumpForce;
+        this.extraJumps = this.extraJumpsValue;
+    }
+
+/********** Touch Events **********/  
+    public void publishEvent(TouchEvent e)
+    {
+        //UnityEngine.Debug.Log(e.gesture);
+        switch(e.gesture)
         {
-            extraJumps = extraJumpsValue;
-        }
-
-
-        if (Input.GetKeyDown(KeyCode.UpArrow) && extraJumps > 0)
-        {
-            rb.velocity = Vector2.up * jumpForce;
-            extraJumps--;
-            animate.SetFloat("isJumping", Mathf.Abs(jumpForce));////
-            
-        }
-        
-        else if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded == true)
-        {
-            rb.velocity = Vector2.up * jumpForce;
-
-            
+            case GESTURE.TAP:
+                this.evaluateDirection(e.screenPos);
+                break;
+            case GESTURE.HOLD:
+                this.evaluateDirection(e.screenPos);
+                break;
+            case GESTURE.MOVED:
+                this.evaluateDirection(e.screenPos);
+                break;
+            case GESTURE.RELEASE:
+                this.updateMoveInput(0.0f);
+                break;
+            case GESTURE.SWIPE_UP:
+                if(this.extraJumps > 0)
+                    this.aerialJump();
+                else
+                    this.jump();
+                break;
+            default:
+                break;
         }
     }
-}
+
+    private void evaluateDirection(SCREEN_POS screenPos)
+    {
+        if(screenPos == SCREEN_POS.RIGHT)
+            this.updateMoveInput(1.0f);
+        else if(screenPos == SCREEN_POS.LEFT)
+            this.updateMoveInput(-1.0f);
+    }
+
+/********** Clean Up **********/
+    void OnDestroy()
+    {
+        if(this.connectToHub)
+            this.hub.getTouchSubAccess().unsubscribe(this);
+    }
+}  
 
 
