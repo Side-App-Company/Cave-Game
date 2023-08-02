@@ -186,9 +186,10 @@ ITouchAccess
             }
             // NOTE: TouchPhase.Moved
             else if(this.trackedTouches[0].trackMovement)
+            {
                 this.publishTouchEvent(GESTURE.MOVED, this.trackedTouches[0].screenPos, currentPosition);
-            else
                 this.evaluateGesture(currentPosition, 0);
+            }
         }
 
     }

@@ -48,13 +48,6 @@ public class PlayerController_01 : MonoBehaviour,
 /********** Runtime **********/
     void Update()
     {
-
-        if(isGrounded == true)
-        {
-            extraJumps = extraJumpsValue;
-        }
-
-
         if (Input.GetKeyDown(KeyCode.UpArrow) && extraJumps > 0)
             this.aerialJump();
         
@@ -97,13 +90,14 @@ public class PlayerController_01 : MonoBehaviour,
     private void aerialJump()
     {
         this.jump();
-        extraJumps--;
+        this.extraJumps--;
         animate.SetFloat("isJumping", Mathf.Abs(jumpForce));////
     }
 
     private void jump()
     {
         rb.velocity = Vector2.up * jumpForce;
+        this.extraJumps = this.extraJumpsValue;
     }
 
 /********** Touch Events **********/  
@@ -123,6 +117,12 @@ public class PlayerController_01 : MonoBehaviour,
                 break;
             case GESTURE.RELEASE:
                 this.updateMoveInput(0.0f);
+                break;
+            case GESTURE.SWIPE_UP:
+                if(this.extraJumps > 0)
+                    this.aerialJump();
+                else
+                    this.jump();
                 break;
             default:
                 break;

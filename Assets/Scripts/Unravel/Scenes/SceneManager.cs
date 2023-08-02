@@ -22,7 +22,10 @@ public class SceneManager : PubSubAccess<SceneEvent>,
     [SerializeField]
     private bool markScenesReady = true;
 
+    [SerializeField]
+    private SCENE EDITOR_DEFAULT_SCENE = SCENE.MAIN_MENU;
     private SCENE DEFAULT_SCENE;
+
     private SCENE ENQUEUED_SCENE;
     private List<SCENE> sceneHistory;
     private SceneInstance currentScene;
@@ -36,16 +39,21 @@ public class SceneManager : PubSubAccess<SceneEvent>,
 
     private void init()
     {
-        this.DEFAULT_SCENE = SCENE.MAIN_MENU;
+        this.DEFAULT_SCENE = this.EDITOR_DEFAULT_SCENE;
+
+        //this.DEFAULT_SCENE = SCENE.MAIN_MENU;
         this.ENQUEUED_SCENE = this.DEFAULT_SCENE;
         this.sceneHistory = new List<SCENE>();
         this.currentScene = new SceneInstance();
-        this.enqueuedScene = new AssetReference(SCENE_ADDRESSES.MAP[this.ENQUEUED_SCENE]);
+        
+        if(this.DEFAULT_SCENE != SCENE.NULL)
+            this.enqueuedScene = new AssetReference(SCENE_ADDRESSES.MAP[this.ENQUEUED_SCENE]);
     }
 
     void Start()
     {
-        this.loadScene(this.enqueuedScene, this);
+        if(this.EDITOR_DEFAULT_SCENE != SCENE.NULL)
+            this.loadScene(this.enqueuedScene, this);
     }
 
     // TODO: Buttonless Scene Hopping/Teleporting in the Inspector
