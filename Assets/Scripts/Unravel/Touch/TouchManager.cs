@@ -82,6 +82,12 @@ ITouchAccess
 
                     this.trackedTouches[touchIndex].resetTouch(this.touch.position, screenPos);
                 }
+                else if (this.touch.phase == TouchPhase.Stationary 
+                    && this.trackedTouches[touchIndex].isActive
+                ){
+                    this.publishTouchEvent(GESTURE.HOLD, this.trackedTouches[touchIndex].screenPos, this.touch.position);
+                    this.trackedTouches[touchIndex].lastPhase = TouchPhase.Stationary;
+                }
                 // NOTE: Handles tracked touch movement
                 else if(this.touch.phase == TouchPhase.Moved 
                     && this.trackedTouches[touchIndex].isActive
@@ -150,23 +156,26 @@ ITouchAccess
         // NOTE: TouchPhase.Began
         if(Input.GetMouseButtonDown(0))
         {
+            Vector2 currentPosition = Input.mousePosition;
+
             if(!this.trackedTouches[0].isActive)
             {
-                Vector2 startPosition = Input.mousePosition;
                 SCREEN_POS screenPos;
-                if(startPosition.x < Screen.width/2)
+                if(currentPosition.x < Screen.width/2)
                     screenPos = SCREEN_POS.LEFT;
                 else
                     screenPos = SCREEN_POS.RIGHT;
 
-                this.trackedTouches[0].resetTouch(startPosition, screenPos);
+                this.trackedTouches[0].resetTouch(currentPosition, screenPos);
             }
+
+            this.publishTouchEvent(GESTURE.HOLD, this.trackedTouches[0].screenPos, currentPosition);
         }
         
         else if(this.trackedTouches[0].isActive)
         {
             Vector2 currentPosition = Input.mousePosition;
-            
+
             // NOTE: TouchPhase.Ended
             if(!Input.GetMouseButton(0))
             {

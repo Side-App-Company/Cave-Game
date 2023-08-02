@@ -4,7 +4,7 @@ public class AppManager : MonoBehaviour,
     IPubAccess<SceneEvent>
 {
     [SerializeField]
-    Hub hub;
+    private Hub hub;
 
     void Start()
     {
@@ -14,7 +14,7 @@ public class AppManager : MonoBehaviour,
 /********** Scene Events **********/
     public void publishEvent(SceneEvent e)
     {
-        UnityEngine.Debug.Log(e.sceneEvent);
+        
     }
 
 /********** Clean Up **********/

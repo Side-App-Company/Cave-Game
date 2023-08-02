@@ -27,14 +27,14 @@ public class TrackedTouch
         this.resetTouch(startPosition, screenPos);
     }
 
-    public void resetTouch(Vector2 startPosition, SCREEN_POS screenPos)
+    public void resetTouch(Vector2 startPosition, SCREEN_POS screenPos, bool trackRelease = true, bool trackMovement = true)
     {
         this.startPosition = startPosition;
         this.screenPos = screenPos;
 
         this.lastPhase = TouchPhase.Began;
-        this.trackRelease = false;
-        this.trackMovement = false;
+        this.trackRelease = trackRelease;
+        this.trackMovement = trackMovement;
 
         this.isActive = true;
     }

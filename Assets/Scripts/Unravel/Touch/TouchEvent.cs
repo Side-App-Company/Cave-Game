@@ -13,8 +13,6 @@ namespace Unravel
 
         /*********** Touch Values *************/
             HOLD,
-            HOLD_RIGHT,
-            HOLD_LEFT,
             TAP,
             DOUBLE_TAP,
             RELEASE,
