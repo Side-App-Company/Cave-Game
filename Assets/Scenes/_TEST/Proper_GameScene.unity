@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37100667, g: 0.37852222, b: 0.3573966, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -354,7 +354,7 @@ GameObject:
   - component: {fileID: 26404222}
   m_Layer: 0
   m_Name: Item_Space
-  m_TagString: Untagged
+  m_TagString: Item_Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2605,7 +2605,7 @@ GameObject:
   - component: {fileID: 335252821}
   m_Layer: 0
   m_Name: Enemy_Space
-  m_TagString: Untagged
+  m_TagString: Enemy_Space
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4669,7 +4669,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2694328533397807621, guid: 848dd9e2cfda28540a35f08c5d390d19, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.00000011685664
+      value: -0.0000002601036
       objectReference: {fileID: 0}
     - target: {fileID: 2694328533397807621, guid: 848dd9e2cfda28540a35f08c5d390d19, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -4701,7 +4701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3890361671043976467, guid: 848dd9e2cfda28540a35f08c5d390d19, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5656558
+      value: 0.56565994
       objectReference: {fileID: 0}
     - target: {fileID: 3890361671043976467, guid: 848dd9e2cfda28540a35f08c5d390d19, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4713,7 +4713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3890361671043976467, guid: 848dd9e2cfda28540a35f08c5d390d19, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.82464147
+      value: -0.82463866
       objectReference: {fileID: 0}
     - target: {fileID: 3890361671043976467, guid: 848dd9e2cfda28540a35f08c5d390d19, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -8989,10 +8989,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 2019881213}
     m_Modifications:
     - target: {fileID: 2812167790114852352, guid: be360945bf239dc418623e749e660e48, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2812167790114852352, guid: be360945bf239dc418623e749e660e48, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -9032,17 +9028,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3571634646246792040, guid: be360945bf239dc418623e749e660e48, type: 3}
-      propertyPath: maxSpawn
-      value: 50
-      objectReference: {fileID: 0}
     - target: {fileID: 5990328071706726986, guid: be360945bf239dc418623e749e660e48, type: 3}
       propertyPath: m_Name
       value: FactoryHouse
-      objectReference: {fileID: 0}
-    - target: {fileID: 5990328071706726986, guid: be360945bf239dc418623e749e660e48, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11127,8 +11115,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.36280012, y: -4.16, z: 0}
-    m_Extent: {x: 13.9041, y: 9.9743, z: 0}
+    m_Center: {x: 0.37400007, y: -4.1642, z: 0}
+    m_Extent: {x: 13.898001, y: 9.9738, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

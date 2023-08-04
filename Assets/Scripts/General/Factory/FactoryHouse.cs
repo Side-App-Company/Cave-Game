@@ -36,11 +36,13 @@ public class FactoryHouse : MonoBehaviour
     private int maxSpawn = 101;
 
     private GameObject factoryHouse;
+    private GameObject enemyParent;
+    private GameObject itemParent;
 
     [SerializeField]
-    private float minTime = 4.0f;
+    private float minTime = .1f;
     [SerializeField]
-    private float maxTime = 8.0f;
+    private float maxTime = .4f;
     float randomTime;
 
     [SerializeField]
@@ -58,15 +60,17 @@ public class FactoryHouse : MonoBehaviour
     private void Awake()
     {
         factoryHouse = gameObject;
+        enemyParent = GameObject.FindGameObjectWithTag("Enemy_Space");
+        itemParent = GameObject.FindGameObjectWithTag("Item_Space");
     }
 
 
     // Start is called before the first frame update
     void Start()
     {
-        for (int i = 0; i < 50; i++)
+        for (int i = 0; i < 5; i++)
         {
-            Factory.getObject(DROPPABLES.STALACTITE, stalactite, factoryHouse.transform);
+            Factory.getObject(DROPPABLES.STALACTITE, stalactite, enemyParent.transform);
             stalactites++;
         }
         randomTime = Random.Range(minTime, maxTime);
@@ -83,7 +87,7 @@ public class FactoryHouse : MonoBehaviour
         if (timewarpSlowbool)
         {
             timewarpFastbool = !timewarpFastbool;
-            foreach (Transform item in factoryHouse.transform)
+            foreach (Transform item in enemyParent.transform)
             {
                 var script = item.GetComponent<Droppable>();
                 if (script != null)
@@ -92,7 +96,7 @@ public class FactoryHouse : MonoBehaviour
             timewarp = 4.2f;
             return;
         }
-        foreach (Transform item in factoryHouse.transform)
+        foreach (Transform item in enemyParent.transform)
         {
             var script = item.GetComponent<Droppable>();
             if (script != null)
@@ -113,7 +117,7 @@ public class FactoryHouse : MonoBehaviour
         if (timewarpFastbool)
         {
             timewarpSlowbool = false;
-            foreach (Transform item in factoryHouse.transform)
+            foreach (Transform item in enemyParent.transform)
             {
                 var script = item.GetComponent<Droppable>();
                 if (script != null)
@@ -122,7 +126,7 @@ public class FactoryHouse : MonoBehaviour
             timewarp = 4.2f;
             return;
         }
-        foreach (Transform item in factoryHouse.transform)
+        foreach (Transform item in enemyParent.transform)
         {
             var script = item.GetComponent<Droppable>();
             if (script != null)
@@ -145,29 +149,29 @@ public class FactoryHouse : MonoBehaviour
         oilTime = oilTime - Time.deltaTime;
         if (randomTime <= 0 && stalactites < maxSpawn)
         {
-            Factory.getObject(DROPPABLES.STALACTITE, stalactite, factoryHouse.transform);
+            Factory.getObject(DROPPABLES.STALACTITE, stalactite, enemyParent.transform);
             stalactites++;
             switch (powerSpawn)
             {
                 default:
                     break;
                 case 1:
-                    Factory.getObject(DROPPABLES.SHRINK, shrink, factoryHouse.transform);
+                    Factory.getObject(DROPPABLES.SHRINK, shrink, itemParent.transform);
                     break;
                 case 2:
-                    Factory.getObject(DROPPABLES.SPEEDUP, speedUp, factoryHouse.transform);
+                    Factory.getObject(DROPPABLES.SPEEDUP, speedUp, itemParent.transform);
                     break;
                 case 3:
-                    Factory.getObject(DROPPABLES.TIMEWARP_SLOW, timewarpslow, factoryHouse.transform);
+                    Factory.getObject(DROPPABLES.TIMEWARP_SLOW, timewarpslow, itemParent.transform);
                     break;
                 case 4:
-                    Factory.getObject(DROPPABLES.GROW, grow, factoryHouse.transform);
+                    Factory.getObject(DROPPABLES.GROW, grow, itemParent.transform);
                     break;
                 case 5:
-                    Factory.getObject(DROPPABLES.SLOW, slow, factoryHouse.transform);
+                    Factory.getObject(DROPPABLES.SLOW, slow, itemParent.transform);
                     break;
                 case 6:
-                    Factory.getObject(DROPPABLES.TIMEWARP_FAST, timewarpfast, factoryHouse.transform);
+                    Factory.getObject(DROPPABLES.TIMEWARP_FAST, timewarpfast, itemParent.transform);
                     break;
             }
             randomTime = Random.Range(minTime, maxTime);
@@ -175,7 +179,7 @@ public class FactoryHouse : MonoBehaviour
         }
         if (oilTime <= 0)
         {
-            Factory.getObject(DROPPABLES.OIL, oil, factoryHouse.transform);
+            Factory.getObject(DROPPABLES.OIL, oil, itemParent.transform);
             oilTime = 5.5f;
         }
         if (timewarpFastbool)
