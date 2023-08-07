@@ -17,8 +17,14 @@ public abstract class Droppable : MonoBehaviour
     protected float minspeed = .2f;
     [SerializeField]
     protected float maxspeed = 2.0f;
+    [SerializeField]
+    protected float xMax = 49.0f;
+    [SerializeField]
+    protected float xMin = -49.0f;
+    [SerializeField]
+    protected float ySpawn = 20.0f;
 
-
+    public bool randomFallSpeed = false;
     public bool timewarpFastbool = false;
     public bool timewarpSlowbool = false;
     [SerializeField]
@@ -76,11 +82,12 @@ public abstract class Droppable : MonoBehaviour
     protected virtual void fall()
     {
         _droppableTransform.position = new Vector3(_droppableTransform.position.x, _droppableTransform.position.y - randomfall, _droppableTransform.position.z);
-        randomfall = Random.Range(minspeed, maxspeed);
+        if(randomFallSpeed == true)
+            randomfall = Random.Range(minspeed, maxspeed);
     }
     protected virtual void init()
     {
-        _droppableTransform.localPosition = new Vector3(Random.Range(-100.0f, 100.0f), 20, 0);
+        _droppableTransform.localPosition = new Vector3(Random.Range(xMin, xMax), ySpawn, 0);
         randomfall = Random.Range(minspeed, maxspeed);
     }
 }
