@@ -8698,6 +8698,10 @@ PrefabInstance:
       propertyPath: maxSpawn
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 3571634646246792040, guid: be360945bf239dc418623e749e660e48, type: 3}
+      propertyPath: stalactite
+      value: 
+      objectReference: {fileID: 3895191461801838236, guid: 1320c0e262308f24a9a67033e0f2b588, type: 3}
     - target: {fileID: 5990328071706726986, guid: be360945bf239dc418623e749e660e48, type: 3}
       propertyPath: m_Name
       value: FactoryHouse
@@ -10645,8 +10649,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.3678999, y: -4.1738, z: 0}
-    m_Extent: {x: 13.9032, y: 9.970699, z: 0}
+    m_Center: {x: 0.3680501, y: -4.16175, z: 0}
+    m_Extent: {x: 13.90855, y: 9.97135, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
