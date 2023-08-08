@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2085c178064578341936270b489be7d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stalactite: {fileID: 3895191461801838236, guid: 1320c0e262308f24a9a67033e0f2b588, type: 3}
+  stalactite: {fileID: 1973702375883235155, guid: 8130d9b72e7a44b06b325ae92789679a, type: 3}
   shrink: {fileID: 3895191461801838236, guid: 72775ffd2e79645d0a2285d48aa6e432, type: 3}
   speedUp: {fileID: 3895191461801838236, guid: db530d7600d224cc1ac5c505127c6a0f, type: 3}
   timewarpslow: {fileID: 3895191461801838236, guid: d8dbdf28253644c78a25a0c39f9539b0, type: 3}

@@ -26,7 +26,8 @@ namespace Unravel
                     new Dictionary<SCENE, string>
                     {
                         { SCENE.MAIN_MENU, "Scenes/MainMenu.unity" },
-                        { SCENE.GAME, "Scenes/Game.unity" }
+                        //{ SCENE.GAME, "Scenes/Game.unity" }
+                        { SCENE.GAME, "Scenes/TEST/GameScene.unity" }
                     }
                 );
             }
