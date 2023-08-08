@@ -29,6 +29,11 @@ MonoBehaviour:
     m_SerializedLabels:
     - Scenes
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33ef4fcb1c0d544e68ad681fb88421cb
+    m_Address: Scenes/TEST/GameScene.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ce87e0e3801494f92b21f8952218921d, type: 2}
   m_SchemaSet:
