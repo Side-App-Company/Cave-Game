@@ -49,6 +49,12 @@ public class FactoryHouse : MonoBehaviour
     private float oilTime = 5.5f;
 
     [SerializeField]
+    private float minpowerTime = .75f;
+    [SerializeField]
+    private float maxpowerTime = 3.5f;
+    private float powerTime;
+
+    [SerializeField]
     private bool timewarpFastbool = false;
     [SerializeField]
     private bool timewarpSlowbool = false;
@@ -74,6 +80,7 @@ public class FactoryHouse : MonoBehaviour
             stalactites++;
         }
         randomTime = Random.Range(minTime, maxTime);
+        powerTime = Random.Range(minpowerTime, maxpowerTime);
         powerSpawn = Random.Range(1, 6);
     }
 
@@ -147,10 +154,20 @@ public class FactoryHouse : MonoBehaviour
     {
         randomTime = randomTime - Time.deltaTime;
         oilTime = oilTime - Time.deltaTime;
+        powerTime = powerTime - Time.deltaTime;
         if (randomTime <= 0 && stalactites < maxSpawn)
         {
             Factory.getObject(DROPPABLES.STALACTITE, stalactite, enemyParent.transform);
             stalactites++;
+            if(stalactites > 24)
+            {
+                minTime = 1.2f;
+                maxTime = 2.4f;
+            }
+            randomTime = Random.Range(minTime, maxTime);
+        }
+        if(powerTime <= 0)
+        {
             switch (powerSpawn)
             {
                 default:
@@ -174,7 +191,7 @@ public class FactoryHouse : MonoBehaviour
                     Factory.getObject(DROPPABLES.TIMEWARP_FAST, timewarpfast, itemParent.transform);
                     break;
             }
-            randomTime = Random.Range(minTime, maxTime);
+            powerTime = Random.Range(minpowerTime, maxpowerTime);
             powerSpawn = Random.Range(1, 6);
         }
         if (oilTime <= 0)
