@@ -1494,7 +1494,7 @@ GameObject:
   - component: {fileID: 155870149}
   - component: {fileID: 155870150}
   m_Layer: 0
-  m_Name: Backdrop_2
+  m_Name: Back_Drop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1578,7 +1578,7 @@ GameObject:
   - component: {fileID: 158973201}
   - component: {fileID: 158973202}
   m_Layer: 0
-  m_Name: Pillar_5
+  m_Name: Back_Pillar_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1861,7 +1861,7 @@ GameObject:
   - component: {fileID: 180842096}
   - component: {fileID: 180842097}
   m_Layer: 0
-  m_Name: Pillar_2
+  m_Name: Back_Pillar_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2028,7 +2028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 222550136}
   m_Layer: 0
-  m_Name: BackPillars
+  m_Name: Back_Pillars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2217,7 +2217,7 @@ GameObject:
   - component: {fileID: 315271776}
   - component: {fileID: 315271777}
   m_Layer: 0
-  m_Name: Sprites_Background_9
+  m_Name: Front_Pillar_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2232,7 +2232,7 @@ Transform:
   m_GameObject: {fileID: 315271775}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -41, y: -37.4, z: 14}
+  m_LocalPosition: {x: -25.5, y: -75, z: 19}
   m_LocalScale: {x: 1, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3113,7 +3113,7 @@ GameObject:
   m_Component:
   - component: {fileID: 463900144}
   m_Layer: 0
-  m_Name: Pillar_4
+  m_Name: Back_Pillar_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3677,7 +3677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 500326052}
   m_Layer: 0
-  m_Name: Cavern
+  m_Name: Front_Cavern
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4814,7 +4814,7 @@ GameObject:
   - component: {fileID: 568053074}
   - component: {fileID: 568053075}
   m_Layer: 0
-  m_Name: Sprites_Background_7
+  m_Name: Front_Pillar_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4829,7 +4829,7 @@ Transform:
   m_GameObject: {fileID: 568053073}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.126345, y: -37.4, z: 14}
+  m_LocalPosition: {x: 27.599998, y: -75, z: 19}
   m_LocalScale: {x: 1, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5599,12 +5599,12 @@ GameObject:
   m_Component:
   - component: {fileID: 682109482}
   m_Layer: 0
-  m_Name: Cavern_1
+  m_Name: Front_Pillars
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &682109482
 Transform:
   m_ObjectHideFlags: 0
@@ -5614,7 +5614,7 @@ Transform:
   m_GameObject: {fileID: 682109481}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.473654, y: -37.930725, z: 4.978155}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6366,7 +6366,7 @@ GameObject:
   - component: {fileID: 852635703}
   - component: {fileID: 852635704}
   m_Layer: 0
-  m_Name: Backdrop_0
+  m_Name: Back_Drop_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7119,7 +7119,7 @@ GameObject:
   - component: {fileID: 1021152120}
   - component: {fileID: 1021152119}
   m_Layer: 0
-  m_Name: Pillar_0
+  m_Name: Back_Pillar_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8707,7 +8707,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1192866492}
   m_Layer: 0
-  m_Name: Pillar_1
+  m_Name: Back_Pillar_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9341,7 +9341,7 @@ GameObject:
   - component: {fileID: 1324369262}
   - component: {fileID: 1324369263}
   m_Layer: 0
-  m_Name: Sprites_Background_6
+  m_Name: Front_Pillar_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9356,7 +9356,7 @@ Transform:
   m_GameObject: {fileID: 1324369261}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.5, y: -37.4, z: 14}
+  m_LocalPosition: {x: -2, y: -75, z: 19}
   m_LocalScale: {x: 1, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9747,7 +9747,7 @@ GameObject:
   - component: {fileID: 1406259286}
   - component: {fileID: 1406259288}
   m_Layer: 0
-  m_Name: Backdrop_1
+  m_Name: Back_Drop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16671,7 +16671,7 @@ GameObject:
   - component: {fileID: 1820161745}
   - component: {fileID: 1820161746}
   m_Layer: 0
-  m_Name: Pillar_3
+  m_Name: Back_Pillar_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17292,7 +17292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1938530354}
   m_Layer: 0
-  m_Name: Backdrop
+  m_Name: Back_Drops
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17878,12 +17878,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2106636151}
   m_Layer: 0
-  m_Name: BackCavern
+  m_Name: Back_Caverns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2106636151
 Transform:
   m_ObjectHideFlags: 0
