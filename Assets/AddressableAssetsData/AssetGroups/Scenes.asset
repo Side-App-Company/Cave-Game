@@ -23,14 +23,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - Scenes
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 589e896e1d9704dc695f3724fedd0f90
+  - m_GUID: c16e25fe7c3e0486890b1c5de6dfd0b3
     m_Address: Scenes/Game.unity
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Scenes
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 33ef4fcb1c0d544e68ad681fb88421cb
-    m_Address: Scenes/TEST/GameScene.unity
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
