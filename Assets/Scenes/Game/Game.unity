@@ -1494,7 +1494,7 @@ GameObject:
   - component: {fileID: 155870149}
   - component: {fileID: 155870150}
   m_Layer: 0
-  m_Name: FarBack_Right
+  m_Name: Backdrop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3678,7 +3678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 500326052}
   m_Layer: 0
-  m_Name: Outcrop
+  m_Name: Cavern
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3693,12 +3693,12 @@ Transform:
   m_GameObject: {fileID: 500326051}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.473654, y: -37.930725, z: 4.978155}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1583722644}
   - {fileID: 1666670814}
+  - {fileID: 1583722644}
   - {fileID: 641107759}
   - {fileID: 1479298744}
   - {fileID: 612890604}
@@ -5015,7 +5015,7 @@ GameObject:
   - component: {fileID: 612890604}
   - component: {fileID: 612890605}
   m_Layer: 0
-  m_Name: Outcrop_Right (1)
+  m_Name: Cavern_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5030,7 +5030,7 @@ Transform:
   m_GameObject: {fileID: 612890603}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 23.1, y: -37.86, z: 8.5}
+  m_LocalPosition: {x: 39, y: -75.8, z: 13.5}
   m_LocalScale: {x: 1.1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5265,7 +5265,7 @@ GameObject:
   - component: {fileID: 641107759}
   - component: {fileID: 641107760}
   m_Layer: 0
-  m_Name: Outcrop_Mid
+  m_Name: Cavern_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5280,7 +5280,7 @@ Transform:
   m_GameObject: {fileID: 641107758}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -27.63, y: -37.85, z: 8.5}
+  m_LocalPosition: {x: -12, y: -75.8, z: 13.5}
   m_LocalScale: {x: 1.1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5500,9 +5500,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1938530354}
+  - {fileID: 2106636151}
   - {fileID: 500326052}
   - {fileID: 682109482}
-  - {fileID: 2106636151}
   - {fileID: 222550136}
   m_Father: {fileID: 2007042656}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6367,7 +6367,7 @@ GameObject:
   - component: {fileID: 852635703}
   - component: {fileID: 852635704}
   m_Layer: 0
-  m_Name: FarBack_Left
+  m_Name: Backdrop_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7448,7 +7448,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472193556240531697, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.033277918
+      value: -0.033277944
       objectReference: {fileID: 0}
     - target: {fileID: 2472193556240531697, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalRotation.y
@@ -7456,7 +7456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472193556240531697, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 5.7259264e-10
+      value: 5.7259303e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4418566273271122398, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9715,7 +9715,7 @@ GameObject:
   - component: {fileID: 1406259286}
   - component: {fileID: 1406259288}
   m_Layer: 0
-  m_Name: FarBack_Mid
+  m_Name: Backdrop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15033,7 +15033,7 @@ GameObject:
   - component: {fileID: 1476090622}
   - component: {fileID: 1476090623}
   m_Layer: 0
-  m_Name: Cavern_Mid
+  m_Name: BackCavern_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15048,7 +15048,7 @@ Transform:
   m_GameObject: {fileID: 1476090621}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -20.500002, y: -38, z: 20}
+  m_LocalPosition: {x: -5, y: -76, z: 25}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15117,7 +15117,7 @@ GameObject:
   - component: {fileID: 1479298744}
   - component: {fileID: 1479298745}
   m_Layer: 0
-  m_Name: Outcrop_Right
+  m_Name: Cavern_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15132,7 +15132,7 @@ Transform:
   m_GameObject: {fileID: 1479298743}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.5, y: -37.86, z: 8.5}
+  m_LocalPosition: {x: 13, y: -75.8, z: 13.5}
   m_LocalScale: {x: 1.1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15568,7 +15568,7 @@ GameObject:
   - component: {fileID: 1583722644}
   - component: {fileID: 1583722645}
   m_Layer: 0
-  m_Name: Outcrop_Left
+  m_Name: Cavern_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15583,7 +15583,7 @@ Transform:
   m_GameObject: {fileID: 1583722643}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -52.42, y: -37.85, z: 8.5}
+  m_LocalPosition: {x: -37, y: -75.8, z: 13.5}
   m_LocalScale: {x: 1.1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15966,7 +15966,7 @@ GameObject:
   - component: {fileID: 1666670814}
   - component: {fileID: 1666670815}
   m_Layer: 0
-  m_Name: Outcrop_Left (1)
+  m_Name: Cavern_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15981,7 +15981,7 @@ Transform:
   m_GameObject: {fileID: 1666670813}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -78.5, y: -37.85, z: 8.5}
+  m_LocalPosition: {x: -63, y: -75.8, z: 13.5}
   m_LocalScale: {x: 1.1, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17260,7 +17260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1938530354}
   m_Layer: 0
-  m_Name: FarBack
+  m_Name: Backdrop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17295,7 +17295,7 @@ GameObject:
   - component: {fileID: 1955305435}
   - component: {fileID: 1955305436}
   m_Layer: 0
-  m_Name: Cavern_Right
+  m_Name: BackCavern_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17310,7 +17310,7 @@ Transform:
   m_GameObject: {fileID: 1955305434}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 24.499998, y: -38, z: 20}
+  m_LocalPosition: {x: 40, y: -76, z: 25}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17613,7 +17613,7 @@ GameObject:
   - component: {fileID: 2044715548}
   - component: {fileID: 2044715549}
   m_Layer: 0
-  m_Name: Cavern_Left
+  m_Name: BackCavern_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17628,7 +17628,7 @@ Transform:
   m_GameObject: {fileID: 2044715547}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -66, y: -38, z: 20}
+  m_LocalPosition: {x: -50.5, y: -76, z: 25}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17846,12 +17846,12 @@ GameObject:
   m_Component:
   - component: {fileID: 2106636151}
   m_Layer: 0
-  m_Name: Cavern_2
+  m_Name: BackCavern
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2106636151
 Transform:
   m_ObjectHideFlags: 0
@@ -17861,7 +17861,7 @@ Transform:
   m_GameObject: {fileID: 2106636150}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15.473654, y: -37.930725, z: 4.978155}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18190,7 +18190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.033277918
+      value: -0.033277944
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalRotation.y
@@ -18198,7 +18198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 5.7259264e-10
+      value: 5.7259303e-10
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
