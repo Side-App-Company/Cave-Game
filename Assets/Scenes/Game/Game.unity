@@ -3677,12 +3677,12 @@ GameObject:
   m_Component:
   - component: {fileID: 500326052}
   m_Layer: 0
-  m_Name: Front_Cavern
+  m_Name: Front_Caverns
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &500326052
 Transform:
   m_ObjectHideFlags: 0
@@ -5014,7 +5014,7 @@ GameObject:
   - component: {fileID: 612890604}
   - component: {fileID: 612890605}
   m_Layer: 0
-  m_Name: Cavern_4
+  m_Name: Front_Cavern_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5264,7 +5264,7 @@ GameObject:
   - component: {fileID: 641107759}
   - component: {fileID: 641107760}
   m_Layer: 0
-  m_Name: Cavern_2
+  m_Name: Front_Cavern_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7447,7 +7447,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472193556240531697, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.033277918
+      value: -0.03327793
       objectReference: {fileID: 0}
     - target: {fileID: 2472193556240531697, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalRotation.y
@@ -7455,7 +7455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472193556240531697, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 5.7259264e-10
+      value: 5.725928e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4418566273271122398, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15149,7 +15149,7 @@ GameObject:
   - component: {fileID: 1479298744}
   - component: {fileID: 1479298745}
   m_Layer: 0
-  m_Name: Cavern_3
+  m_Name: Front_Cavern_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15600,7 +15600,7 @@ GameObject:
   - component: {fileID: 1583722644}
   - component: {fileID: 1583722645}
   m_Layer: 0
-  m_Name: Cavern_1
+  m_Name: Front_Cavern_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15998,7 +15998,7 @@ GameObject:
   - component: {fileID: 1666670814}
   - component: {fileID: 1666670815}
   m_Layer: 0
-  m_Name: Cavern_0
+  m_Name: Front_Cavern_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18222,7 +18222,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.033277918
+      value: -0.03327793
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalRotation.y
@@ -18230,7 +18230,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 5.7259264e-10
+      value: 5.725928e-10
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
