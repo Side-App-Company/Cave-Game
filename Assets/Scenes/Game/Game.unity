@@ -3279,12 +3279,12 @@ GameObject:
   - component: {fileID: 361209947}
   - component: {fileID: 361209950}
   m_Layer: 0
-  m_Name: Sprites_Objects_5 (1)
+  m_Name: Boulder_Little
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &361209947
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -3358,9 +3358,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1023729891
+  m_SortingLayer: -1
+  m_SortingOrder: 5
   m_Sprite: {fileID: -3664952, guid: a63458890ef346245b3ac42612b37595, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3380,12 +3380,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 361209946}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 15, y: -84, z: 5}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1712213169}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &361209950
 Rigidbody2D:
@@ -9899,12 +9899,12 @@ GameObject:
   - component: {fileID: 1008428042}
   - component: {fileID: 1008428045}
   m_Layer: 0
-  m_Name: Sprites_Objects_5
+  m_Name: Boulder_Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!58 &1008428042
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -10000,12 +10000,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008428041}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.42261827, w: 0.9063079}
+  m_LocalRotation: {x: -0, y: -0, z: 0.42261827, w: 0.9063079}
   m_LocalPosition: {x: 13, y: -82.6, z: 5}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1712213169}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 50}
 --- !u!50 &1008428045
 Rigidbody2D:
@@ -21438,6 +21438,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1234609259}
+  - {fileID: 1008428044}
+  - {fileID: 361209949}
   m_Father: {fileID: 1172830242}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1723240283
@@ -24831,5 +24833,3 @@ SceneRoots:
   - {fileID: 525868320}
   - {fileID: 335252821}
   - {fileID: 1349189877}
-  - {fileID: 1008428044}
-  - {fileID: 361209949}
