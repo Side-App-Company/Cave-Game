@@ -41,22 +41,25 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: 0
-    uniqueID: 3216401103
-    locked: 0
-  - name: Background
-    uniqueID: 1637806293
-    locked: 0
-  - name: Enemy
-    uniqueID: 167082825
-    locked: 0
-  - name: Midground
-    uniqueID: 3271237405
-    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: 2
+  - name: Background 0
+    uniqueID: 3216401103
+    locked: 0
+  - name: Background 1
+    uniqueID: 1637806293
+    locked: 0
+  - name: Background 2
+    uniqueID: 167082825
+    locked: 0
+  - name: Midground 0
+    uniqueID: 3271237405
+    locked: 0
+  - name: Midground 1
+    uniqueID: 315040673
+    locked: 0
+  - name: Enemy
     uniqueID: 2355043949
     locked: 0
   - name: Player
@@ -65,24 +68,15 @@ TagManager:
   - name: Item
     uniqueID: 1838213371
     locked: 0
-  - name: 4
+  - name: Midground 2
     uniqueID: 1848680611
     locked: 0
-  - name: 6
+  - name: Foreground 0
     uniqueID: 1317468773
     locked: 0
-  - name: Foreground
+  - name: Foreground 1
     uniqueID: 2819125997
     locked: 0
-  - name: 7
+  - name: Foreground 2
     uniqueID: 1802887289
-    locked: 0
-  - name: 8
-    uniqueID: 1554664381
-    locked: 0
-  - name: 9
-    uniqueID: 3542659313
-    locked: 0
-  - name: 10
-    uniqueID: 897543839
     locked: 0
