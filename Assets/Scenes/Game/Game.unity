@@ -3928,7 +3928,7 @@ GameObject:
   - component: {fileID: 465613899}
   - component: {fileID: 465613898}
   m_Layer: 0
-  m_Name: Sprites_Foreground_1
+  m_Name: Pillar_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3995,7 +3995,7 @@ Transform:
   m_GameObject: {fileID: 465613897}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 55.060005, y: -82.34, z: 0.5}
+  m_LocalPosition: {x: 55, y: -82, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5993,7 +5993,7 @@ GameObject:
   - component: {fileID: 662887964}
   - component: {fileID: 662887965}
   m_Layer: 0
-  m_Name: Sprites_Foreground_0
+  m_Name: Pillar_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6008,7 +6008,7 @@ Transform:
   m_GameObject: {fileID: 662887963}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -52.526344, y: -80.73073, z: 1.5581551}
+  m_LocalPosition: {x: -52, y: -81, z: 2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8363,7 +8363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472193556240531697, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.033277944
+      value: -0.033277918
       objectReference: {fileID: 0}
     - target: {fileID: 2472193556240531697, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalRotation.y
@@ -8371,7 +8371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472193556240531697, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -5.7259303e-10
+      value: -5.7259264e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4418566273271122398, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9999,7 +9999,7 @@ GameObject:
   - component: {fileID: 1210747559}
   - component: {fileID: 1210747560}
   m_Layer: 0
-  m_Name: Sprites_Foreground_1
+  m_Name: Pillar_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10014,7 +10014,7 @@ Transform:
   m_GameObject: {fileID: 1210747558}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.973654, y: -83.430725, z: 0.97815514}
+  m_LocalPosition: {x: 17, y: -83, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10369,7 +10369,7 @@ GameObject:
   - component: {fileID: 1295492493}
   - component: {fileID: 1295492494}
   m_Layer: 0
-  m_Name: Sprites_Foreground_2
+  m_Name: Pillar_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10384,7 +10384,7 @@ Transform:
   m_GameObject: {fileID: 1295492492}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -48.926346, y: -79.430725, z: 3.9781551}
+  m_LocalPosition: {x: -49, y: -79, z: 4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11463,8 +11463,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.37249994, y: -4.1686, z: 0}
-    m_Extent: {x: 13.909201, y: 9.9717, z: 0}
+    m_Center: {x: 0.37235022, y: -4.1640997, z: 0}
+    m_Extent: {x: 13.903049, y: 9.9743, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -17417,7 +17417,7 @@ GameObject:
   - component: {fileID: 1596224023}
   - component: {fileID: 1596224022}
   m_Layer: 0
-  m_Name: Foreground_Pillar
+  m_Name: Flowstone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17484,7 +17484,7 @@ Transform:
   m_GameObject: {fileID: 1596224021}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 57.5, y: -78.7, z: 3.5}
+  m_LocalPosition: {x: 57, y: -79, z: 4}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17880,11 +17880,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1596224023}
   - {fileID: 662887964}
+  - {fileID: 1295492493}
   - {fileID: 1210747559}
   - {fileID: 465613899}
-  - {fileID: 1295492493}
+  - {fileID: 1596224023}
   m_Father: {fileID: 339831905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1676325185
@@ -20760,7 +20760,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.033277944
+      value: -0.033277918
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalRotation.y
@@ -20768,7 +20768,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -5.7259303e-10
+      value: -5.7259264e-10
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
