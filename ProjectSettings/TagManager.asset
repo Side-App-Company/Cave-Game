@@ -59,11 +59,11 @@ TagManager:
   - name: Midground 1
     uniqueID: 315040673
     locked: 0
-  - name: Enemy
-    uniqueID: 2355043949
-    locked: 0
   - name: Player
     uniqueID: 145775837
+    locked: 0
+  - name: Enemy
+    uniqueID: 2355043949
     locked: 0
   - name: Item
     uniqueID: 1838213371
