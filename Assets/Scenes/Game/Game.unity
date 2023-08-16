@@ -337,7 +337,7 @@ GameObject:
   - component: {fileID: 20004560}
   - component: {fileID: 20004559}
   m_Layer: 0
-  m_Name: Foreground_Spire
+  m_Name: Spire_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -408,7 +408,7 @@ Transform:
   m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 767634492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &21658813
 PrefabInstance:
@@ -804,28 +804,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2124744188}
-  - {fileID: 489429039}
-  - {fileID: 153571530}
-  - {fileID: 580454616}
-  - {fileID: 97948495}
-  - {fileID: 1868966609}
-  - {fileID: 1826277842}
-  - {fileID: 460414025}
-  - {fileID: 1869577750}
-  - {fileID: 316817732}
-  - {fileID: 1120636613}
-  - {fileID: 1155397909}
-  - {fileID: 558835313}
-  - {fileID: 1938272589}
-  - {fileID: 152420094}
-  - {fileID: 844467598}
-  - {fileID: 1041740854}
-  - {fileID: 1688860173}
-  - {fileID: 519385860}
-  - {fileID: 1512239093}
-  - {fileID: 2058619415}
-  - {fileID: 20004560}
+  - {fileID: 1615022536}
+  - {fileID: 767634492}
+  - {fileID: 1814222361}
+  - {fileID: 1223544290}
   m_Father: {fileID: 339831905}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &65754571
@@ -1071,7 +1053,7 @@ GameObject:
   - component: {fileID: 97948495}
   - component: {fileID: 97948496}
   m_Layer: 0
-  m_Name: Sprites_Foreground_7 (2)
+  m_Name: Spire_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1090,7 +1072,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 767634492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &97948496
 SpriteRenderer:
@@ -1454,7 +1436,7 @@ GameObject:
   - component: {fileID: 152420094}
   - component: {fileID: 152420095}
   m_Layer: 0
-  m_Name: Sprites_Foreground_17 (3)
+  m_Name: Boulder_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1473,7 +1455,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1814222361}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &152420095
 SpriteRenderer:
@@ -1538,7 +1520,7 @@ GameObject:
   - component: {fileID: 153571530}
   - component: {fileID: 153571531}
   m_Layer: 0
-  m_Name: Sprites_Foreground_17
+  m_Name: Boulder_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1557,7 +1539,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1814222361}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &153571531
 SpriteRenderer:
@@ -2487,7 +2469,7 @@ GameObject:
   - component: {fileID: 316817732}
   - component: {fileID: 316817733}
   m_Layer: 0
-  m_Name: Sprites_Foreground_15 (3)
+  m_Name: Stalagmite_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2506,7 +2488,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1615022536}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &316817733
 SpriteRenderer:
@@ -3844,7 +3826,7 @@ GameObject:
   - component: {fileID: 460414025}
   - component: {fileID: 460414026}
   m_Layer: 0
-  m_Name: Sprites_Foreground_20 (2)
+  m_Name: Outcrop_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3863,7 +3845,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1223544290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &460414026
 SpriteRenderer:
@@ -4290,7 +4272,7 @@ GameObject:
   - component: {fileID: 489429039}
   - component: {fileID: 489429040}
   m_Layer: 0
-  m_Name: Sprites_Foreground_30
+  m_Name: Outcrop_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4309,7 +4291,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1223544290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &489429040
 SpriteRenderer:
@@ -4552,7 +4534,7 @@ GameObject:
   - component: {fileID: 519385860}
   - component: {fileID: 519385861}
   m_Layer: 0
-  m_Name: Sprites_Foreground_10 (1)
+  m_Name: Outcrop_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4571,7 +4553,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1223544290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &519385861
 SpriteRenderer:
@@ -4816,7 +4798,7 @@ GameObject:
   - component: {fileID: 558835313}
   - component: {fileID: 558835314}
   m_Layer: 0
-  m_Name: Sprites_Foreground_10 (2)
+  m_Name: Outcrop_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4835,7 +4817,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1223544290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &558835314
 SpriteRenderer:
@@ -5652,7 +5634,7 @@ GameObject:
   - component: {fileID: 580454616}
   - component: {fileID: 580454617}
   m_Layer: 0
-  m_Name: Sprites_Foreground_7
+  m_Name: Spire_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5671,7 +5653,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 767634492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &580454617
 SpriteRenderer:
@@ -6917,6 +6899,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &767634491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 767634492}
+  m_Layer: 0
+  m_Name: Spires
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &767634492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767634491}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 580454616}
+  - {fileID: 20004560}
+  - {fileID: 97948495}
+  m_Father: {fileID: 62234474}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &778882508
 GameObject:
   m_ObjectHideFlags: 0
@@ -7142,7 +7158,7 @@ GameObject:
   - component: {fileID: 844467598}
   - component: {fileID: 844467599}
   m_Layer: 0
-  m_Name: Sprites_Foreground_17 (2)
+  m_Name: Boulder_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7161,7 +7177,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1814222361}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &844467599
 SpriteRenderer:
@@ -8363,7 +8379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472193556240531697, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.033277918
+      value: -0.03327793
       objectReference: {fileID: 0}
     - target: {fileID: 2472193556240531697, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalRotation.y
@@ -8371,7 +8387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2472193556240531697, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -5.7259264e-10
+      value: -5.725928e-10
       objectReference: {fileID: 0}
     - target: {fileID: 4418566273271122398, guid: a6152cdb07f014e0b966f8b6c64cbc51, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8446,7 +8462,7 @@ GameObject:
   - component: {fileID: 1041740854}
   - component: {fileID: 1041740855}
   m_Layer: 0
-  m_Name: Sprites_Foreground_20 (1)
+  m_Name: Outcrop_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8465,7 +8481,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1223544290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1041740855
 SpriteRenderer:
@@ -9375,7 +9391,7 @@ GameObject:
   - component: {fileID: 1120636613}
   - component: {fileID: 1120636614}
   m_Layer: 0
-  m_Name: Sprites_Foreground_15 (2)
+  m_Name: Stalagmite_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9394,7 +9410,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1615022536}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1120636614
 SpriteRenderer:
@@ -9608,7 +9624,7 @@ GameObject:
   - component: {fileID: 1155397909}
   - component: {fileID: 1155397910}
   m_Layer: 0
-  m_Name: Sprites_Foreground_10
+  m_Name: Outcrop_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9627,7 +9643,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1223544290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1155397910
 SpriteRenderer:
@@ -10105,6 +10121,44 @@ Transform:
   - {fileID: 1365569880}
   - {fileID: 1061947616}
   m_Father: {fileID: 2115828570}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1223544289
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1223544290}
+  m_Layer: 0
+  m_Name: Outcrops
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1223544290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223544289}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1155397909}
+  - {fileID: 1826277842}
+  - {fileID: 519385860}
+  - {fileID: 1041740854}
+  - {fileID: 489429039}
+  - {fileID: 460414025}
+  - {fileID: 558835313}
+  m_Father: {fileID: 62234474}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1229254745
 GameObject:
@@ -16850,7 +16904,7 @@ GameObject:
   - component: {fileID: 1512239093}
   - component: {fileID: 1512239094}
   m_Layer: 0
-  m_Name: Sprites_Foreground_17 (1)
+  m_Name: Boulder_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16869,7 +16923,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1814222361}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1512239094
 SpriteRenderer:
@@ -17588,6 +17642,43 @@ Transform:
   - {fileID: 389831878}
   m_Father: {fileID: 2115828570}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1615022535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1615022536}
+  m_Layer: 0
+  m_Name: Stalagmites
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1615022536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615022535}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1868966609}
+  - {fileID: 1120636613}
+  - {fileID: 1869577750}
+  - {fileID: 1688860173}
+  - {fileID: 2058619415}
+  - {fileID: 316817732}
+  m_Father: {fileID: 62234474}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1617461931
 GameObject:
   m_ObjectHideFlags: 0
@@ -17982,7 +18073,7 @@ GameObject:
   - component: {fileID: 1688860173}
   - component: {fileID: 1688860174}
   m_Layer: 0
-  m_Name: Sprites_Foreground_15 (1)
+  m_Name: Stalagmite_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18001,7 +18092,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1615022536}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1688860174
 SpriteRenderer:
@@ -18380,6 +18471,43 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1814222360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1814222361}
+  m_Layer: 0
+  m_Name: Boulders
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1814222361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814222360}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 153571530}
+  - {fileID: 152420094}
+  - {fileID: 1938272589}
+  - {fileID: 2124744188}
+  - {fileID: 1512239093}
+  - {fileID: 844467598}
+  m_Father: {fileID: 62234474}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1821939217
 GameObject:
   m_ObjectHideFlags: 0
@@ -18475,7 +18603,7 @@ GameObject:
   - component: {fileID: 1826277842}
   - component: {fileID: 1826277843}
   m_Layer: 0
-  m_Name: Sprites_Foreground_20
+  m_Name: Outcrop_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18494,7 +18622,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1223544290}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1826277843
 SpriteRenderer:
@@ -18852,7 +18980,7 @@ GameObject:
   - component: {fileID: 1868966609}
   - component: {fileID: 1868966610}
   m_Layer: 0
-  m_Name: Sprites_Foreground_7 (1)
+  m_Name: Stalagmite_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18871,7 +18999,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1615022536}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1868966610
 SpriteRenderer:
@@ -18936,7 +19064,7 @@ GameObject:
   - component: {fileID: 1869577750}
   - component: {fileID: 1869577751}
   m_Layer: 0
-  m_Name: Sprites_Foreground_15
+  m_Name: Stalagmite_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18955,7 +19083,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1615022536}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1869577751
 SpriteRenderer:
@@ -19311,7 +19439,7 @@ GameObject:
   - component: {fileID: 1938272589}
   - component: {fileID: 1938272590}
   m_Layer: 0
-  m_Name: Sprites_Foreground_17
+  m_Name: Boulder_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19330,7 +19458,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1814222361}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1938272590
 SpriteRenderer:
@@ -19834,7 +19962,7 @@ GameObject:
   - component: {fileID: 2058619415}
   - component: {fileID: 2058619416}
   m_Layer: 0
-  m_Name: Sprites_Foreground_19
+  m_Name: Stalagmite_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19853,7 +19981,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1615022536}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2058619416
 SpriteRenderer:
@@ -20224,7 +20352,7 @@ GameObject:
   - component: {fileID: 2124744188}
   - component: {fileID: 2124744189}
   m_Layer: 0
-  m_Name: Sprites_Foreground_13
+  m_Name: Boulder_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20243,7 +20371,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 62234474}
+  m_Father: {fileID: 1814222361}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2124744189
 SpriteRenderer:
@@ -20760,7 +20888,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.033277918
+      value: -0.03327793
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalRotation.y
@@ -20768,7 +20896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -5.7259264e-10
+      value: -5.725928e-10
       objectReference: {fileID: 0}
     - target: {fileID: 7168857726666883067, guid: 7c1550a82e2c1495db87525bc05c2ffd, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
